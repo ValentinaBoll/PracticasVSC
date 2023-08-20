@@ -1,0 +1,14 @@
+:root{
+    --hue: #333961
+}
+
+
+a{
+    color: hsl(var(--hue), 90%, 50%);
+    transition: color 1s;
+}
+
+a:focus-visible,
+a:hover{
+    text-decoration: none;
+}

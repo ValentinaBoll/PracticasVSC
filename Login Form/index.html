@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--INICIO MAIN-->
+    <main class="login">
+
+        <div class="login__col">
+
+            <!--INICIO FORM-->
+            <form method="post" class="loging__form" action="">
+                <div class="login__form-wrapper">
+                    <h1>Welcome back</h1>
+                    <p>Sign in to your account.</p>
+
+                    <!--DIV USERNAME-->
+                    <div class="login__field-group">
+                        <label for="user-email" class="login__label">Username or Email</label>
+                        <input type="text" class="login__field" id="user-email" name="user-email">
+                    </div>
+
+                    <!--DIV PASSWORD-->
+                    <div class="login__field-group">
+                        <label for="pass" class="login__label">Password</label>
+                        <input type="password" id="pass" name="pass" class="login__field">
+                    </div>
+                    <!--DIV REMEMBER ME-->
+                    <div class="login__field-group login__field-group--horz">
+                        <label class="login__label login__label--horz">
+                            <input type="checkbox" class="login__checkbox" name="remember_me">
+                            <span>Remember me</span>
+                        </label>
+                        <a href="#">Forgot password</a>
+                    </div>
+
+                    <!--SIGN IN-->
+                    <button class="login__btn" type="button" data-login="false">
+                        <span class="login__btn-label">Sign in</span>
+                        <span class="login__btn-spinner"></span>
+                    </button>
+                    <p class="login__sign-up">Don't have an account? <a href="#">Sign up</a></p>
+                </div>
+            </form>
+            <!--FIN FORM-->
+
+            <!--INICIO FOOTER-->
+            <footer class="login__copyright">
+            </footer>
+            <!--FIN FOOTER-->
+        </div>
+        <div class="login__col">
+            <div class="login__bg-img">
+                <div class="login__testimonial">
+                    <p><q>
+                        Assduf Jekyll has helped us kick-start projects in a bang and save thousands of hours of work
+                    </q></p>
+                    <p>Ann Thrax</p>
+                    <p><small>Senior UX Designer, X.Y. Zee</small></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--FIN MAIN-->
+</body>
+</html>
